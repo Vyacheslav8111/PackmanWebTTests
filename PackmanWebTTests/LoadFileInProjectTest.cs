@@ -32,7 +32,7 @@ namespace WebPackmanTest
         {
             // Open Home Page
             driver.Navigate().GoToUrl(baseURL);
-            Thread.Sleep(1000); // Thread.Sleep - временно 
+            Thread.Sleep(1000); // Thread.Sleep - временно. Позже указать здесь ожидание появления элемента. 
             // Open LoadFileInProjectPage
             driver.FindElement(By.LinkText("Файлы")).Click();
             // Choise Project
